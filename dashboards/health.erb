@@ -2,7 +2,7 @@
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is a sample Health dashboard." data-moreinfo=""></div>
+      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="" data-moreinfo="">This is a sample Health dashboard.</div>
     </li>
     <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="health-prod" data-view="Health" data-title="Prod health"></div>
@@ -14,7 +14,7 @@
       <div data-id="health-dev" data-view="Health" data-title="Dev health"></div>
     </li>
     <li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
-      <div data-id="statusText" data-view="Health" data-title="TEST JOB"></div>
+      <div data-id="health" data-view="Health" data-title="TEST JOB"></div>
     </li>
   </ul>
   <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "criticals": 0, "warnings": 1 }' \http://<%=request.host%>:<%=request.port%>/widgets/health-prod</div></center>
